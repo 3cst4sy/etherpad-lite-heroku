@@ -2,6 +2,6 @@
 
 cd `dirname $0`
 
-cd etherpad-lite
+cd "etherpad-lite"
 
 bin/run.sh $* || exit 1
