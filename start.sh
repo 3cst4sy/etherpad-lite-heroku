@@ -1,9 +1,6 @@
 #!/bin/sh
 
-for entry in .
-do
-  echo "$entry"
-done
+echo *
 
 cd etherpad-lite
 
