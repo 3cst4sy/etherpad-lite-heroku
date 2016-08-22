@@ -1,9 +1,7 @@
 #!/bin/sh
 
-echo *
-
 cd "etherpad-lite"
 
-echo *
+chmod a+x bin/*.sh
 
 bin/run.sh $* || exit 1
