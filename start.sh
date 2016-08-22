@@ -1,5 +1,4 @@
 #!/bin/sh
 
-cd "etherpad-lite"
 
-bin/run.sh $* || exit 1
+etherpad-lite/bin/run.sh $* || exit 1
