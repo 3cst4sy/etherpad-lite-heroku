@@ -4,4 +4,4 @@ cd "etherpad-lite"
 
 chmod a+x bin/*.sh
 
-bin/run.sh $* || exit 1
+bin/safeRun.sh $* || exit 1
