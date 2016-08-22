@@ -1,1 +1,1 @@
-web: ./preparse.rb
+web: node index.js
