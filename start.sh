@@ -1,6 +1,6 @@
 #!/bin/sh
 
-for entry in ./*
+for entry in .
 do
   echo "$entry"
 done
