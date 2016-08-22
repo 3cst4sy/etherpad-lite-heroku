@@ -16,5 +16,5 @@
   },
   "keywords": [ "node", "heroku","etherpad", "realtime", "collaborative", "editor" ],
   "author": "3cst4sy",
-  "license": "GPL",
+  "license": "GPL"
 }
