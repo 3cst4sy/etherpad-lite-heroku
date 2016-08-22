@@ -1,6 +1,6 @@
 #!/bin/sh
 
-BASEDIR=$(dirname "$0")
-echo "$BASEDIR"
-
-etherpad-lite/bin/run.sh $* || exit 1
+for entry in ./*
+do
+  echo "$entry"
+done
